@@ -143,11 +143,6 @@ DHA-SYNC/
 - Node.js 18+ (for frontend)
 - pip & npm
 
-### Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/gandi-lesiba/dha-sync.git
-cd dha-sync
 
 
 
