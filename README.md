@@ -100,3 +100,54 @@
 ---
 
 ## 📁 Project Structure
+DHA-SYNC/
+├── backend/
+│ ├── app/
+│ │ ├── init.py # Flask application factory
+│ │ ├── models.py # Database models
+│ │ ├── routes/
+│ │ │ ├── auth.py # Authentication routes
+│ │ │ ├── cases.py # Case management routes
+│ │ │ ├── dashboard.py # Analytics routes
+│ │ │ ├── documents.py # Document management routes
+│ │ │ ├── audit.py # Audit log routes
+│ │ │ └── users.py # User management routes
+│ │ └── utils/
+│ │ └── seed.py # Default user seeder
+│ ├── instance/ # SQLite database
+│ ├── logs/ # Application logs
+│ ├── venv/ # Virtual environment
+│ ├── requirements.txt
+│ ├── run.py # Application entry point
+│ └── .env # Environment variables
+├── frontend/ # React frontend (coming soon)
+├── database/
+│ ├── schema.sql
+│ └── seed.sql
+├── documentation/
+│ ├── API.md
+│ ├── SDLC.md
+│ └── SRS.md
+├── .gitignore
+├── README.md
+└── test_api.py # API test script
+
+
+
+---
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Python 3.10+
+- Node.js 18+ (for frontend)
+- pip & npm
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/gandi-lesiba/dha-sync.git
+cd dha-sync
+
+
+
